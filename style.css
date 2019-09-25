@@ -1,7 +1,7 @@
-/* <<<<<<< mybranch
+/* <<<<<<< mybranch 
 body, html{
     height: 100%;
-}
+}*/
 .bg{
     /* The image used */
     background-image: url("https://res.cloudinary.com/dlfbw1snm/image/upload/v1569272085/Group_ssy7oh_s0o1jz.png");
@@ -19,10 +19,9 @@ p{
     font-size: 1.5em;
     position: absolute;
     top: 200px;
-======= */
+}
+/*======= */
 .bot-container {
-  background: url("https://res.cloudinary.com/benjee/image/upload/v1569248286/Group_ssy7oh.png")
-    no-repeat center;
   background-size: 100% auto;
   font-family: "Gayathri", sans-serif, Helvetica, sans-serif;
   position: absolute;
@@ -31,11 +30,10 @@ p{
   .bot-container {
     background-size: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     text-align: center;
     padding: 0 50px;
-    flex-direction: column;
     top: 0;
     left: 0;
   }
@@ -64,30 +62,58 @@ h1 {
   width: 100%;
   font-size: 1.5rem;
 }
+
+.bot-container{
+
+}
+.bot-bg{
+    /* background: url('https://res.cloudinary.com/benjee/image/upload/v1569248286/Group_ssy7oh.png');
+    width: 100%;
+    min-height: 100%;*/
+}
+
+.body{
+  height: 100%;
+  display: flex;
+  background-color:#ffffff;
+    background: url("https://res.cloudinary.com/benjee/image/upload/v1569416479/Group_3_kz2uek.png")
+    no-repeat ;
+  background-size: cover; 
+}
+
+.bot-content{
+    /* background-color: blueviolet; */
+    text-align: left;
+    margin-left: 80px;
+}
+
+.bot-content-top{
+  font-size: 76px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+}
+
+.bot-content-mid{
+  margin-left: 10px;
+  color: #E6E6E6;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Josefin Sans', 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  width: 58%;
+  margin-bottom: 10px;
+}
+
 .btn-primary {
-  background-color: #016098;
-  border-radius: 20px;
+  background-color: inherit;
+  border-radius: 8px;
   color: white;
-  font-size: 1em;
-  height: 62px;
+  font-size: 20px;
+  height: 50px;
   left: 627px;
-  width: 173px;
+  width: 180px;
   margin: 10px;
   border: 1px solid;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(214, 211, 211, 0.2),
     0 6px 20px 0 rgba(241, 241, 241, 0.19);
-}
-.bot-container{
-
-}
-.bot-bg{
-    background: url('https://res.cloudinary.com/benjee/image/upload/v1569248286/Group_ssy7oh.png');
-    width: 100%;
-    min-height: 100%;
-}
-
-.bot-content{
-    margin: 20% 0;
-    text-align: center;
 }
